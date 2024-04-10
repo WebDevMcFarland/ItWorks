@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="h-screen flex flex-col items-center justify-center align-center">
     <WavyBackground className="absolute inset-0 z-0" />
-    <div className="relative z-10">
+    <div className="relative z-10 mb-20 ">
       <p className="text-6xl md:text-7xl lg:text-8xl text-white font-bold text-center cursor-default">
         Coming Soon
       </p>
