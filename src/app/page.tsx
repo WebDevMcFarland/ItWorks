@@ -8,7 +8,7 @@ export default function Home() {
     <WavyBackground className="absolute inset-0 z-0" />
     <div className="relative z-10">
       <p className="text-6xl md:text-7xl lg:text-8xl text-white font-bold text-center cursor-default">
-        Comming Soon
+        Coming Soon
       </p>
       <p className="text-xl md:text-2xl lg:text-4xl mt-4 text-white font-normal text-center cursor-default">
         Portfolio Visualization
