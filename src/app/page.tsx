@@ -5,8 +5,14 @@ import "./globals.css";
 export default function Home() {
   return (
     <div className="h-screen flex flex-col items-center justify-center align-center">
-    <WavyBackground className="absolute inset-0 z-0" />
-    <div className="relative z-10 mb-20 ">
+    <WavyBackground colors={[
+"#9400D3",
+"#5D3FD3",
+"#00BFFF",
+"#87CEFA",
+"#00FA9A"
+]} className="absolute inset-0 z-0"/>
+    <div className="relative z-10 mb-40 ">
       <p className="text-6xl md:text-7xl lg:text-8xl text-white font-bold text-center cursor-default">
         Coming Soon
       </p>
